@@ -2,8 +2,9 @@ import telebot
 import sqlite3
 import random
 import time
+import os
+TOKEN = os.getenv("8792650374:AAG6iohQJQrghyRQ7N1E_j8oI-lwzRa-rmY")
 
-TOKEN = "8792650374:AAG6iohQJQrghyRQ7N1E_j8oI-lwzRa-rmY"
 bot = telebot.TeleBot(TOKEN)
 
 ADMIN_ID = 7979064736  # apna telegram id dal
